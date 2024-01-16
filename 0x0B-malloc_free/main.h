@@ -1,5 +1,5 @@
-#ifndef _MAIN.H_
-#define _MAIN.H_
+#ifndef MAIN.H_
+#define MAIN.H_
 
 int _putchar(char c);
 char *_strdup(char *str);
