@@ -7,7 +7,7 @@
  * @dest: the string that receives the new copied value
  * @src: the string to be copied to dest pointer
  *
- * Return: void
+ * Return: a pointer to the conactenated string
  */
 char *_strcat(char *dest, char *src)
 {
