@@ -3,7 +3,8 @@
 /**
  * puts_half - a function thst prints half of a atring
  * if odd len, n = (lenght_of_string -1 )/2
- * @str: input;
+ * @str: input
+ *
  * Return: half of input
  */
 void puts_half(char *str)

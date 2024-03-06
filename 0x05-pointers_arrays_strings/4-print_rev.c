@@ -3,6 +3,7 @@
 /**
  * print_rev - prints a string in reverse 
  * @s: a parameter of string to print in reverse order
+ *
  * Return : Always 0
  */
 void print_rev(char *s)
@@ -12,7 +13,7 @@ void print_rev(char *s)
 
         while (*s != '\0')
         {
-                long++;
+                longi++;
                 s++;
         }
         s--;
