@@ -4,7 +4,7 @@
  * _stncat - concatenates two strings
  * using at most n bytes of memory
  * @dest: first string
- * @src; second strings
+ * @src; second string
  * @n: number of bytes
  *
  * Return: dest
@@ -12,7 +12,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
-	intj;
+	int j;
 
 	i = 0;
 	while (dest[i] != '\0')
@@ -26,6 +26,11 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-	dest[i] = '\0';
-	return (dest)
+	if (j >= n)
+	{
+		dest[i] = '\0';
+
+	}
+
+	return (dest);
 }
